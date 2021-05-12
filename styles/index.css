@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Kanit:wght@500&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Raleway:wght@900&display=swap");
+
+h1,
+h2,
+h3 {
+    font-family: "Hind", sans-serif;
+}
+
+h4 {
+    font-family: "Fira Code", monospace;
+}
+
+h5,
+li {
+    font-family: "Poppins", sans-serif;
+}
+
+.html-tag {
+    @apply text-sm text-gray-700;
+}
+
+p,
+a {
+    @apply leading-[2rem];
+    font-family: "Open Sans", sans-serif;
+}
