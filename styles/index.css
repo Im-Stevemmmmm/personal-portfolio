@@ -9,24 +9,24 @@
 h1,
 h2,
 h3 {
-    font-family: "Hind", sans-serif;
+  font-family: "Hind", sans-serif;
 }
 
 h4 {
-    font-family: "Fira Code", monospace;
+  font-family: "Fira Code", monospace;
 }
 
 h5,
 li {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .html-tag {
-    @apply text-sm text-gray-700;
+  @apply text-sm text-gray-700;
 }
 
 p,
 a {
-    @apply leading-[2rem];
-    font-family: "Open Sans", sans-serif;
+  @apply leading-[2rem];
+  font-family: "Open Sans", sans-serif;
 }
